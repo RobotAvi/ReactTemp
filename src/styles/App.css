@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 800px;
+
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.inputBox {
+    margin-top : 7px;
+    font-family: 'Segoe UI';
+    font-size : 11pt;
+    border-radius : 8px;
+    border : 2px solid #3C5A76;
+    height : 40px;
+    outline: none;
+    padding: 3px;
+}
